@@ -59,4 +59,5 @@ let wordCount = loremIpsum
 let etCount = (loremIpsum.match(/\bet\b/g) || []).length;
 
 console.log(`Word count: ${wordCount}`);
+
 console.log(`'et' count: ${etCount}`);
